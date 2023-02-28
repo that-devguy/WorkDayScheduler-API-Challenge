@@ -88,3 +88,11 @@ textarea {
 .saveBtn:hover  {
   background-color: #469D89;
 }
+
+/* .saveBtn {
+  outline: none;
+} */
+
+.deleteBtn:hover {
+  color: #bc4749;
+}
