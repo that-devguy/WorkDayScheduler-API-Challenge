@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Oswald:wght@300;400&display=swap');
 
 :root {
-
 }
 
 body {
@@ -9,22 +8,40 @@ body {
   font-size: 16px;
 }
 
+header {
+  background: linear-gradient(rgb(70, 157, 137), rgb(86, 171, 145));
+}
+
 .display-3 {
   font-family: 'Merriweather', sans-serif;
   font-weight: 900;
+  color: white;
 }
 
 .lead {
-  font-weight: 400;
+  font-weight: 300;
+  color: white;
+}
+
+#currentDay {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: #121212;
+  border-left: 1px solid #036666;
   padding: 10px;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.hour {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
 }
 
 .description {
@@ -42,7 +59,7 @@ textarea {
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px dashed #036666;
 }
 
 .past {
@@ -51,24 +68,23 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #e9c46a;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #99E2B4;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid #036666;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #248277;
   color: white;
 }
 
-.saveBtn i:hover  {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+.saveBtn:hover  {
+  background-color: #469D89;
 }
