@@ -3,7 +3,7 @@ OSU Bootcamp - Week 5 Homework Challenge
 
 In this week's Challenge I was given starter code that uses Day.js library to work with date and time to create a simple calendar application that allows users to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
 
-## Code Quiz Demo
+## Work Day Scheduler Demo
 
 The following gif shows the web application's appearance and functionality:
 
